@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Graduate Career Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <div class="text-box">
+         <h1>The Best Career Guide Site</h1>
+         <p>Making the world easy for the recent university graduates.<br>A better way to connect with professionals.</p>
+         <a href="" class="hero-btn"> Contact Lerato Moshoadiba To Know More.</a>
+                  
+        </div>
+        
+    </section>
+    
+<!------Career------> 
+
+<section class="career">
+    <h1>Careers Available</h1>
+    <p>Will be listed here</p>
+    
+    <div class="row">
+        <div class="career-col">
+            <h3>Software Development</h3>
+            <p>Content about the career will be listed here.</p>
+        </div>   
+    
+        <div class="career-col">
+            <h3>Web Development</h3>
+            <p>Content about the career will be listed here.</p>
+        </div>   
+        <div class="career-col">
+            <h3>Cybersecurity</h3>
+            <p>Content about the career will be listed here.</p>
+        </div>   
+    </div>
+</section>
+
+<!------Company------>
+
+<section class="company">
+    <h1>Our Company</h1>
+    <p>Information about the company will be available here.</p>
+    
+     <div class="row">
+         <div class="company-col">
+             <img src="images/bryanston.jpg">
+             <div class="layer">
+                 <h3>BRYANSTON</h3>
+             </div>
+         </div>
+         <div class="company-col">
+             <img src="images/capetown.jpg">
+             <div class="layer">
+                 <h3>CAPETOWN</h3>
+             </div>
+         </div>
+         <div class="company-col">
+             <img src="images/sandton.jpg">
+             <div class="layer">
+                 <h3>SANDTON</h3>
+             </div>
+         </div>
+    </div>
+</section>
+    
+<!------Management------>
+    
+<section class="management">
+    <h1>Our Management</h1>
+    <p>Information about the management will be available here.</p>
+    
+    <div class="row">
+        <div class="management-col">
+            <img src="images/management.jpeg">
+            <h3>World Class Management</h3>
+            <p>Information about the management will be available here, to inform about the management of the company.</p>
+
+        </div>
+         <div class="management-col">
+            <img src="images/coding.jpeg">
+            <h3>Second Coding World</h3>
+            <p>Information about the coding world will be available here, to inform about the coding sections available in the company.</p>
+
+        </div>
+         <div class="management-col">
+            <img src="images/Meeting.jpg">
+            <h3>Profile Revamping</h3>
+            <p>Information about the profile revamping will be available here, to inform about the meetings in the company.</p>
+
+        </div>
+    </div>
+    
+</section>
+
+<!------Testimonials------>
+    
+<section class="testimonials">
+     <h1>What Our Graduates Says</h1>
+    <p>Information about the management will be available here.</p>
+    
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/user1.jpg">
+            <div>
+            <p>Feeback from our graduates will be available here, to inform about the reviews in the company.</p>
+            <h3>Confidence Nyathi</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user2.jpg">
+            <div>
+            <p>Feeback from our graduates will be available here, to inform about the reviews in the company.</p>
+            <h3>Blessing Baloyi</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+
+           </div>
+        </div>
+    </div>
+
+</section>
+    
+    
+<!------Call To Action----->
+
+<section class="cta">
+    <h1>Register For Our Career Guiding Programmes<br>Anywhere From The World</h1>
+    <a href="" class="hero-btn"> CONTACT US @ 0737656360/ email: moshoadibamle@gmail.com</a>
+</section>
+    
+<!------Footer----->
+
+ <section class="footer">
+     <h4>About Us</h4>
+     <p>The purpose of this website is to bridge the gap between the graduates and their careers path.<br>To connect them with their career professionals, and give them extra necessary information required to get jobs.</p>
+     
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+     </div>
+     <p>Made with heart <i class="fa fa-heart-o"></i> by Lerato Moshoadiba</p>
+ </section>   
+    
+    
+    
+    
+    
+    
+<!------JavaScript for Toggle Menu---->  
+   <script>  
+       
+       var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+       
+    </script>
+        
+        
+        
+        
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://youtu.be/oYRda7UtuhA?si=p0lUjuZG-e1CA1qP

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Graduate Career Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Programmes & Mentorship</h1>
+    </section>
+    
+<!------Blog content------>
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Programmes & Mentorship</h2>
+            <p>Our website serves as a vital link between graduates and their prospective career paths. We understand that the transition from academic life to a professional career can be challenging. Therefore, we aim to simplify this process by providing a platform that connects graduates with career professionals in their field of interest. This interaction allows graduates to gain insights, advice, and guidance from experienced professionals, thereby facilitating a smoother transition into their chosen careers.</p>
+            <br>
+            <p>In addition to networking opportunities, our website also provides comprehensive information necessary for job hunting. We believe that being well-informed about the job market and understanding the requirements of various roles can significantly increase a graduate's chances of securing employment. Therefore, we strive to keep our users updated with the latest job trends, opportunities, and essential skills sought by employers.</p>
+            <br>
+            <p>Recognizing the importance of continuous learning and upskilling in today's competitive job market, we offer various programs tailored to enhance our users' professional competencies. These programs are designed in consultation with industry experts and aim to equip graduates with the necessary certificates that add value to their resumes. By participating in these programs, graduates can gain a competitive edge and increase their employability.</p>
+            <br>
+            <p>Furthermore, we offer mentorship programs where graduates can receive one-on-one guidance from industry professionals. These mentors provide personalized advice, share their experiences, and help graduates navigate their career paths effectively. Through these mentorship programs, graduates can gain valuable insights, develop essential skills, and build confidence to achieve their career goals. Our ultimate aim is to empower graduates and help them step into the professional world with confidence and competence.
+            </p>
+           
+           <div class="comment-box">
+            
+                <h3> Leave a comment</h3>
+               
+               <form class="comment-form">
+                   <input type="text" placeholder="Enter Name:">
+                   <input type="email" placeholder="Enter Email:">
+                   <textarea rows="5" placeholder="Your comment:"?></textarea>
+                   <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+               </form>
+           </div>              
+            
+            
+            
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analysis</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>CyberSecurity</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Software Development</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Web Development</span>
+                <span>10</span>
+            </div>
+        </div>
+    </div>
+        
+</section>
+    
+<!------Footer----->
+
+ <section class="footer">
+     <h4>About Us</h4>
+     <p>The purpose of this website is to bridge the gap between the graduates and their careers path.<br>To connect them with their career professionals, and give them extra necessary information required to get jobs.</p>
+     
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+     </div>
+     <p>Made with <i class="fa fa-heart-o"></i> by Lerato Moshoadiba</p>
+ </section>   
+    
+    
+    
+    
+    
+    
+<!------JavaScript for Toggle Menu---->  
+   <script>  
+       
+       var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+       
+    </script>
+        
+        
+        
+        
+</body>
+</html>
